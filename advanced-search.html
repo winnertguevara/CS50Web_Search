@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advanced Search</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+    </head>
+    <body>
+        <div id="top">
+            <div class="advanced"><img src="logo.png" width="90px" height="30px"></div>
+            <div class="advanced" id="link"><a href="index.html">Google Search</a></div>
+        </div>
+        <div id="title">Advanced Search</div>
+        <hr color="#F0F0F1" size=1>
+        <div id="advanced-search">
+            <br><br><label>Find pages with...</label>
+            <label id="elem"><b>To do this in the search box.</b></label><br><br>
+            <form action="https://www.google.com/search">
+                <label for="as_q">all these words:</label>
+                <input type="text" name="as_q" class="text-input">
+                <label class="info">Type the important words:</label><label class="example"> tri-colour rat terrier</label><br>
+                <label for="as_epq">this exact word or phrase:</label>
+                <input type="text" name="as_epq" class="text-input">
+                <label class="info">Put exact words in quotes:</label><label class="example">"rat terrier"</label><br>
+                <label for="as_oq">any of this words:</label>
+                <input type="text" name="as_oq" class="text-input">
+                <label class="info">Type OR between all the words you want:</label><label class="example">miniature OR standard</label><br>
+                <label for="as_eq">none of these words:</label>
+                <input type="text" name="as_eq" class="text-input">
+                <label class="info">Put a minus sign just before words that you don't want:</label><label class="example">-rodent, -"Jack Russell"</label><br>
+                <br><hr color="#F0F0F1" size=2><br><br>
+                <div id="button"><input type="submit" value="Advanced Search" id="submit-advanced"></div>
+            </form>
+        </div>
+    </body>
+</html>
